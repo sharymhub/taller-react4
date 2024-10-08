@@ -9,7 +9,7 @@ function Formulario({ manejarCambio }) { //esta el propiedad que permitira compa
         manejarCambio(valor); // Envía el valor al componente padre
       };
     
-      return (
+      return (  
         <div className={Styles.card}>
           <h2 className={Styles.titulo}>Formulario</h2>
           <form>
